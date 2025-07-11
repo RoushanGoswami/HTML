@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5500/form.html -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOB APPLICATION FORM</title>
+</head>
+
+<body>
+    <center>
+        <form>
+            <h1>Job Application Form</h1>
+            <table border="5">
+                <thead>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><label>Full Name:</label></td>
+                        <td> <input type="text" name="username" required="" placeholder="Enter Your Full Name"></td>
+
+                    </tr>
+                    <tr>
+                        <td> <label>Email Address :</label></td>
+                        <td><input type="email" name="email" required="" placeholder="Enter Your email "></td>
+                    </tr>
+                    <tr>
+                        <td> <label>Phone Number :</label></td>
+                        <td><input type="tel" name="phone" required=""></td>
+                    </tr>
+
+
+                    <tr>
+                        <td><label>Gender :</label></td>
+                        <td><input type="radio" name="gender" value="Male">Male
+                            <input type="radio" name="gender" value="Female">Female
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Job Role :</label></td>
+                        <td><select name="select Role" placeholder="--Select Role--">
+                                <option value="select Role">--Select Role--</option>
+                                <option value="web devloper">Web Developer</option>
+                                <option value="front end devloper">front end Developer</option>
+                                <option value="back end devloper"> back end Developer</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td><label>Date Of Birth :</label></td>
+                        <td><input type="date" name="date"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Favorite Colour:</label></td>
+                        <td><input type="color" name="color"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Upload Resume:</label></td>
+                        <td><input type="file" name="file"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Skills:</label></td>
+                        <td><input type="checkbox" name="Skills" value="HTML">HTML
+                            <input type="checkbox" name="Skills" value="CSS">CSS
+                            <input type="checkbox" name="Skills" value="JavaScript">JavaScript
+                            <input type="checkbox" name="Skills" value="React">React
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td><label>Cover letter</label></td>
+                        <td><textarea rows="4" cols="20" placeholder="write something about yourself..."></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <center><button type="Submit">SUBMIT</button>
+                                <button type="clear">RESET</button>
+                            </center>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </form>
+    </center>
